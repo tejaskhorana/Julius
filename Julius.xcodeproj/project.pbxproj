@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F70F8E1BA49D00009B0509 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F70F8A1BA49D00009B0509 /* Fabric.framework */; };
+		16F70F8F1BA49D00009B0509 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F70F8B1BA49D00009B0509 /* TwitterKit.framework */; };
+		16F70F901BA49D00009B0509 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16F70F8C1BA49D00009B0509 /* TwitterKitResources.bundle */; };
+		16F70F911BA49D00009B0509 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F70F8D1BA49D00009B0509 /* TwitterCore.framework */; };
+		16F70F9A1BA4D8AE009B0509 /* AnnArbor.json in Resources */ = {isa = PBXBuildFile; fileRef = 16F70F991BA4D8AE009B0509 /* AnnArbor.json */; };
 		2213C7B31BA3FA0B00C57830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213C7B21BA3FA0B00C57830 /* AppDelegate.swift */; };
 		2213C7B51BA3FA0B00C57830 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213C7B41BA3FA0B00C57830 /* FirstViewController.swift */; };
 		2213C7B71BA3FA0B00C57830 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213C7B61BA3FA0B00C57830 /* SecondViewController.swift */; };
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16F70F8A1BA49D00009B0509 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		16F70F8B1BA49D00009B0509 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		16F70F8C1BA49D00009B0509 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		16F70F8D1BA49D00009B0509 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		16F70F981BA4D87F009B0509 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = "../../../Desktop/SwiftyJSON-master/Source/SwiftyJSON.h"; sourceTree = "<group>"; };
+		16F70F991BA4D8AE009B0509 /* AnnArbor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AnnArbor.json; path = ../../../Desktop/AnnArbor.json; sourceTree = "<group>"; };
 		2213C7AD1BA3FA0B00C57830 /* Julius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Julius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2213C7B11BA3FA0B00C57830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2213C7B21BA3FA0B00C57830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F70F8E1BA49D00009B0509 /* Fabric.framework in Frameworks */,
+				16F70F911BA49D00009B0509 /* TwitterCore.framework in Frameworks */,
+				16F70F8F1BA49D00009B0509 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,10 @@
 		2213C7A41BA3FA0B00C57830 = {
 			isa = PBXGroup;
 			children = (
+				16F70F8A1BA49D00009B0509 /* Fabric.framework */,
+				16F70F8B1BA49D00009B0509 /* TwitterKit.framework */,
+				16F70F8C1BA49D00009B0509 /* TwitterKitResources.bundle */,
+				16F70F8D1BA49D00009B0509 /* TwitterCore.framework */,
 				2213C7AF1BA3FA0B00C57830 /* Julius */,
 				2213C7C71BA3FA0C00C57830 /* JuliusTests */,
 				2213C7AE1BA3FA0B00C57830 /* Products */,
@@ -79,6 +97,8 @@
 		2213C7AF1BA3FA0B00C57830 /* Julius */ = {
 			isa = PBXGroup;
 			children = (
+				16F70F991BA4D8AE009B0509 /* AnnArbor.json */,
+				16F70F981BA4D87F009B0509 /* SwiftyJSON.h */,
 				2213C7B21BA3FA0B00C57830 /* AppDelegate.swift */,
 				2213C7B41BA3FA0B00C57830 /* FirstViewController.swift */,
 				2213C7B61BA3FA0B00C57830 /* SecondViewController.swift */,
@@ -125,6 +145,7 @@
 				2213C7A91BA3FA0B00C57830 /* Sources */,
 				2213C7AA1BA3FA0B00C57830 /* Frameworks */,
 				2213C7AB1BA3FA0B00C57830 /* Resources */,
+				16F70F891BA49CAC009B0509 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -195,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F70F901BA49D00009B0509 /* TwitterKitResources.bundle in Resources */,
 				2213C7BA1BA3FA0B00C57830 /* Main.storyboard in Resources */,
 				2213C7BF1BA3FA0C00C57830 /* LaunchScreen.xib in Resources */,
 				2213C7BC1BA3FA0C00C57830 /* Images.xcassets in Resources */,
+				16F70F9A1BA4D8AE009B0509 /* AnnArbor.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16F70F891BA49CAC009B0509 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run fa1865caf0f0d23aff6bad5eafcff4f69e9320cc cf1d7a71239b0f813a77f06f7c1316291986877e8d82241ad7c197d95ff2581e";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2213C7A91BA3FA0B00C57830 /* Sources */ = {
@@ -346,6 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Julius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Julius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +463,7 @@
 				2213C7D01BA3FA0C00C57830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2213C7D11BA3FA0C00C57830 /* Build configuration list for PBXNativeTarget "JuliusTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +472,7 @@
 				2213C7D31BA3FA0C00C57830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
