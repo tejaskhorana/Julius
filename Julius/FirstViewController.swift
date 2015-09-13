@@ -2,8 +2,8 @@
 //  FirstViewController.swift
 //  Julius
 //
-//  Created by Shaan Sharma on 2015-09-12.
-//  Copyright (c) 2015 Shaan Sharma. All rights reserved.
+//  Created by Tejas Khorana on 2015-09-12.
+//  Copyright (c) 2015 Tejas Khorana. All rights reserved.
 //
 import UIKit
 import TwitterKit
